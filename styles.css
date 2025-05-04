@@ -1,0 +1,39 @@
+/* Styling for the textbox */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #6a5acd; /* Slate blue border */
+    border-radius: 5px;
+    background: linear-gradient(135deg, #ff7f50, #87ceeb); /* Vibrant gradient background */
+    color: #ffffff; /* White text color */
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+input[type="text"]:focus {
+    border-color: #ff4500; /* Orange red border on focus */
+    background: linear-gradient(135deg, #ff4500, #ff7f50); /* Gradient changes on focus */
+    color: #000000; /* Black text color on focus */
+    outline: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on focus */
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #32cd32, #1e90ff); /* Vibrant gradient background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(45deg, #1e90ff, #32cd32); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
